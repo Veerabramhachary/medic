@@ -33,6 +33,8 @@ const Hero = () => {
                         src={heroImage}
                         alt="Hero"
                         className=" w-full lg:max-w-[600px] lg:h-[700px] object-cover rounded-lg shadow-lg"
+                        width="1200"
+                        height="1400"
                     />
                     <div className="absolute bottom-4 left-4 bg-white p-4 rounded-xl shadow-lg">
                         <p className="font-semibold">5000+ Patients Treated</p>

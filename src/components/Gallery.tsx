@@ -9,7 +9,14 @@ const Gallery = ({ items }: GalleryProps) => {
                     className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
                 >
                     <div className="overflow-hidden">
-                        <img src={item.image} alt={item.doctorName} />
+                        <img
+                            src={item.image}
+                            alt={item.doctorName}
+                            width="600"
+                            height="400"
+                            className="w-full h-64 object-cover"
+                            loading="lazy"
+                        />
                         <h2 className="text-2xl font-bold p-5 text-gray-800">
                             {item.doctorName}
                         </h2>
