@@ -35,8 +35,9 @@ const Hero = () => {
                         className=" w-full lg:max-w-[600px] lg:h-[700px] object-cover rounded-lg shadow-lg"
                         width="1200"
                         height="1400"
+                        fetchPriority="high"
                     />
-                    <div className="absolute bottom-4 left-4 bg-white p-4 rounded-xl shadow-lg">
+                    <div className="absolte bottom-4 left-4 bg-white p-4 rounded-xl shadow-lg">
                         <p className="font-semibold">5000+ Patients Treated</p>
                         <p className="text-sm text-gray-500">
                             Trusted healthcare services
