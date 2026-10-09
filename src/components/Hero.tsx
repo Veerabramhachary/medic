@@ -1,5 +1,5 @@
 import Button from "./Button";
-import heroImage from "../assets/hero-image.jpg";
+import heroImage from "../assets/hero-image.webp";
 
 const Hero = () => {
     return (
